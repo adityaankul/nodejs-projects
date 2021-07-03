@@ -4,11 +4,14 @@
   "description": "repo for basic to adv",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server-start": "nodemon Server.js"
   },
   "author": "Aditya Ankul",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"g
   }
 }
