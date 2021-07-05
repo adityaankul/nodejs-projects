@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './components/1.functional/Greet'
+//import Greet from './components/1.functional/Greet'
 import Welcome from './1.components/2.class/Welcome';
 import Parent from './1.components/5.event-handling.js/parent-child/Parent';
 function App() {
@@ -8,10 +8,10 @@ function App() {
     <div className="container" >
     <Parent />
     
-    /* <h1>Welcome to react development</h1>
-      <Greet />
+    <h1>Welcome to react development</h1>
+      
       <Named />
-      <Welcome />
+     // <Welcome />
       <Message />
 
     </div>
